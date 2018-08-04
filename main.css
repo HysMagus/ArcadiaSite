@@ -49,6 +49,14 @@
 *::before,
 *::after {
   box-sizing: border-box; }
+//Mobile
+@media only screen and (max-width: 600px) {
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+//Mobile
 
 html {
   font-family: sans-serif;
@@ -184,6 +192,10 @@ figure {
 img {
   vertical-align: middle;
   border-style: none; }
+img {
+    max-width: 75%;
+    height: auto;
+}
 
 svg:not(:root) {
   overflow: hidden; }

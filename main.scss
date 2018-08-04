@@ -58,6 +58,20 @@ $spacer: 1.5rem;
 html,body {
    height:100%;
 }
+//Generational
+/* If the screen size is 601px or more, set the font-size of <div> to 80px */
+@media only screen and (min-width: 601px) {
+  h1.example {
+    font-size: 80px;
+  }
+}
+
+/* If the screen size is 600px or less, set the font-size of <div> to 30px */
+@media only screen and (max-width: 600px) {
+  b.example {
+    font-size: 30px;
+  }
+}
 //Edits Blake
 h1 {
   font-family: "MaisonNeue-Demi"; 
